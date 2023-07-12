@@ -1,0 +1,998 @@
+[
+  { "name": "Moulages",
+    "typeName": "Moulage",
+    "slugType": "moulages",
+    "image": "Moul_00.00.jpg",
+    "id": 1,
+    "description": "Quelques exemples de moulages destinés à l'enseignement et à diverses stuctures muséales.",
+    "listeRealisations": [
+      { "name": "Tête de rhinocéros",
+        "slug": "tête-de-rhinoceros",
+        "image": "Moul_01.00.jpg",
+        "description": "Tête de rhinocéros ",
+        "techno": " Tête de rhinocéros blanc (Ceratotherium simum) / 120 cmMoulage par projection / Tirage en élastomère de polyuréthane ivoire.",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_01.01.jpg" },
+          { "nom": "img2", "url": "Moul_01.02.jpg" },
+          { "nom": "img3", "url": "Moul_01.03.jpg" },
+          { "nom": "img4", "url": "Moul_01.04.jpg" },
+          { "nom": "img5", "url": "Moul_01.05.jpg" },
+          { "nom": "img6", "url": "Moul_01.06.jpg" }
+        ]
+      },
+      { "name": "Watusi",
+        "slug": "watusi",
+        "image": "Moul_02.00.jpg",
+        "description": "Crâne de watusi ",
+        "techno":"Tête osseuse de watusi (Bos taurus) / 150 cm / Moulage par estampage multipoches / Tirage en résine Polyuréthane  / Peinture acrylique et huile / Pinceau.",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_02.01.jpg" },
+          { "nom": "img2", "url": "Moul_02.02.jpg" },
+          { "nom": "img3", "url": "Moul_02.03.jpg" },
+          { "nom": "img4", "url": "Moul_02.04.jpg" },
+          { "nom": "img5", "url": "Moul_02.05.jpg" },
+          { "nom": "img6", "url": "Moul_02.06.jpg" }
+        ]
+      },
+      { "name": "Baliste Clown",
+        "slug": "baliste-clown",
+        "image": "Moul_03.00.jpg",
+        "description": "Baliste clown",
+        "techno":"Baliste clown (Balistoides conspicillum) / 30cm / Moule en bateau à une poche / Tirage en résine polyuréthane / Peinture acrylique / Pinceau et aérographe.",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_03.01.jpg" },
+          { "nom": "img2", "url": "Moul_03.02.jpg" },
+          { "nom": "img3", "url": "Moul_03.03.jpg" }
+        ]
+      },
+      { "name": "Coelacanthe",
+        "slug": "coelacanthe",
+        "image": "Moul_04.00.jpg",
+        "description": "Coelacanthe ",
+        "techno":"Coelacanthe (Latimeria chalumnae) / Flanc droit/170 cm / Moulage par estampage / Tirage en résine polyuréthane / Huile / pistolet-pinceau.",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_04.01.jpg" },
+          { "nom": "img2", "url": "Moul_04.02.jpg" },
+          { "nom": "img3", "url": "Moul_04.03.jpg" },
+          { "nom": "img4", "url": "Moul_04.04.jpg" }
+        ]
+      },
+      { "name": "Tête de crocodile du Nil",
+        "slug": "tete-de-crocodile-du-nil",
+        "image": "Moul_05.00.jpg",
+        "description": "Tête de crocodile du Nil",
+        "techno":"Tête de crocodile du Nil (Crocodylus niloticus) / 80 cm/Moulage par estampage / Tirage en résine Polyuréthane blanche.",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_05.01.jpg" },
+          { "nom": "img2", "url": "Moul_05.02.jpg" },
+          { "nom": "img3", "url": "Moul_05.03.jpg" },
+          { "nom": "img4", "url": "Moul_05.04.jpg" },
+          { "nom": "img5", "url": "Moul_05.05.jpg" }
+        ]
+      },
+      { "name": "Oeuf de crocodile",
+        "slug": "oeuf-de-crocodile",
+        "image": "Moul_06.00.jpg",
+        "description": "Embryon de Crocodile",
+        "techno":"Embryon de Crocodile / 8 cm / Moule sous chape à une poche / Tirage en résine polyuréthane /Peinture acrylique / Pinceau et aérographe.",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_06.01.jpg" },
+          { "nom": "img2", "url": "Moul_06.02.jpg" },
+          { "nom": "img3", "url": "Moul_06.03.jpg" },
+          { "nom": "img4", "url": "Moul_06.04.jpg" },
+          { "nom": "img5", "url": "Moul_06.05.jpg" },
+          { "nom": "img6", "url": "Moul_06.06.jpg" }
+        ]
+      },
+      { "name": "Crotale Diamantin rouge",
+        "slug": "crotale-diamantin-rouge",
+        "image": "Moul_07.00.jpg",
+        "description": "Crotale diamantin rouge",
+        "techno":"Crotale diamantin rouge (Crotalus ruber) / 110 cm / Moulage en bateau à une poche / Tirage sous vide en résine époxy / Peinture acrylique / Pinceau et aérographe.",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_07.01.jpg" },
+          { "nom": "img2", "url": "Moul_07.02.jpg" },
+          { "nom": "img3", "url": "Moul_07.03.jpg" },
+          { "nom": "img4", "url": "Moul_07.04.jpg" },
+          { "nom": "img5", "url": "Moul_07.05.jpg" }
+        ]
+      },
+      { "name": "Crotale cascabelle",
+        "slug": "crotale-cascabelle",
+        "image": "Moul_08.00.jpg",
+        "description": "Cœur de crotale cascabelle",
+        "techno":"Cœur de crotale (Crotalus durissus) / Moule bateau une poche / Tirage en résine polyuréthane / Peinture acrylique / Pinceau et aérographe.",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_08.01.jpg" },
+          { "nom": "img2", "url": "Moul_08.02.jpg" },
+          { "nom": "img3", "url": "Moul_08.03.jpg" },
+          { "nom": "img4", "url": "Moul_08.04.jpg" },
+          { "nom": "img5", "url": "Moul_08.05.jpg" }
+        ]
+      },
+      { "name": "Dauphin commun",
+        "slug": "dauphin-commun",
+        "image": "Moul_09.00.jpg",
+        "description": "Sacs naseaux de dauphin",
+        "techno":"Sacs naseaux de dauphin commun (Delphinus delphis) / 15 cm / Moulage par injection / Tirage en résine Polyuréthane. https://hal.science/hal-02967939.https://www.oniris-nantes.fr/fileadmin/Etude/CAC/numero9/Arribart_et_al_C_C9.pdf",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_09.01.jpg" },
+          { "nom": "img2", "url": "Moul_09.02.jpg" },
+          { "nom": "img3", "url": "Moul_09.03.jpg" },
+          { "nom": "img4", "url": "Moul_09.04.jpg" },
+          { "nom": "img5", "url": "Moul_09.05.jpg" }
+        ]
+      },
+      { "name": "Dinde",
+        "slug": "dinde",
+        "image": "Moul_10.00.jpg",
+        "description": "Sacs aériens de dinde",
+        "techno":"Sacs aériens de dinde (Meleagris gallopavo) / 40 cm/Moulage par injection / Tirage en résine Polyuréthane  / Peinture acrylique / Pinceau.",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_10.01.jpg" },
+          { "nom": "img2", "url": "Moul_10.02.jpg" },
+          { "nom": "img3", "url": "Moul_10.03.jpg" }
+        ]
+      },
+      { "name": "Dent éléphant d’Afrique",
+        "slug": "dent-elephant-d-afrique",
+        "image": "Moul_11.00.jpg",
+        "description": "Dent d’éléphant  d’Afrique",
+        "techno":"Dent d’éléphant  d’Afrique (Loxodonta africana) / 30 cm Moule en bateau à deux poches / Tirage en résine polyuréthane / Peinture acrylique / Pinceau et aérographe.",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_11.01.jpg" },
+          { "nom": "img2", "url": "Moul_11.02.jpg" },
+          { "nom": "img3", "url": "Moul_11.03.jpg" }
+        ]
+      },
+      { "name": "Fossile de poisson",
+        "slug": "fossile-de-poisson",
+        "image": "Moul_12.00.jpg",
+        "description": "Fossile",
+        "techno":"Fossile de poisson / 35 cm / Moule en bateau à une poche / Tirage en plâtre / Gomme laque avec pigments / Pinceau.",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_12.01.jpg" },
+          { "nom": "img2", "url": "Moul_12.02.jpg" },
+          { "nom": "img3", "url": "Moul_12.03.jpg" }
+        ]
+      },
+      { "name": "Hippopotame",
+        "slug": "hippopotame",
+        "image": "Moul_13.00.jpg",
+        "description": "Hippopotame",
+        "techno":"Hippopotame (nouveau-né) / 60 cm / Moulage par estampage / Tirage en résine Polyuréthane / Peinture acrylique / Pinceau et aérographe.",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_13.01.jpg" },
+          { "nom": "img2", "url": "Moul_13.02.jpg" },
+          { "nom": "img3", "url": "Moul_13.03.jpg" },
+          { "nom": "img4", "url": "Moul_13.04.jpg" }
+        ]
+      },
+      { "name": "Myologie du cou",
+        "slug": "myologie-du-cou",
+        "image": "Moul_14.00.jpg",
+        "description": "dissection de cou humain",
+        "techno":"Myologie du cou (Homme) / 40 cm / Moulage par estampage / Tirage en résine Polyuréthane  / Peinture acrylique et huile / Pinceau et aérographe.",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_14.01.jpg" },
+          { "nom": "img2", "url": "Moul_14.02.jpg" },
+          { "nom": "img3", "url": "Moul_14.03.jpg" },
+          { "nom": "img4", "url": "Moul_14.04.jpg" },
+          { "nom": "img5", "url": "Moul_14.05.jpg" },
+          { "nom": "img6", "url": "Moul_14.06.jpg" },
+          { "nom": "img7", "url": "Moul_14.07.jpg" }
+        ]
+      },
+      { "name": "Coeur",
+        "slug": "coeur",
+        "image": "Moul_15.00.jpg",
+        "description": "Cœur humain",
+        "techno":"Coeur (femme) / 30 cm / Moulage bateau deux poches / Tirage en résine Polyuréthane.",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_15.01.jpg" },
+          { "nom": "img2", "url": "Moul_15.02.jpg" },
+          { "nom": "img3", "url": "Moul_15.03.jpg" },
+          { "nom": "img4", "url": "Moul_15.04.jpg" },
+          { "nom": "img5", "url": "Moul_15.05.jpg" }
+        ]
+      },
+      { "name": "Vertèbres humaines",
+        "slug": "vertebres-humaines",
+        "image": "Moul_16.00.jpg",
+        "description": "vetrèbres humaines",
+        "techno":"Tronçon de six vertèbres, illustrant une pathologie / 20 cm / Moule bateau deux poches / Tirage en résine Polyuréthane  / Peinture acrylique / Pinceau.",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_16.01.jpg" },
+          { "nom": "img2", "url": "Moul_16.02.jpg" },
+          { "nom": "img3", "url": "Moul_16.03.jpg" }
+        ]
+      },
+      { "name": "Wallaby de Bennett",
+        "slug": "wallaby-de-bennett",
+        "image": "Moul_17.00.jpg",
+        "description": "Wallaby (Articulation fémur)",
+        "techno":"Wallaby de Bennett/Face latérale gauche de l'articulation fémoro-tibio-patellaire  / 15 cm / Moule bateau une poche / Tirage en résine Polyuréthane  / Peinture acrylique et huile / Pinceau et aérographe.",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_17.01.jpg" },
+          { "nom": "img2", "url": "Moul_17.02.jpg" },
+          { "nom": "img3", "url": "Moul_17.03.jpg" },
+          { "nom": "img4", "url": "Moul_17.04.jpg" },
+          { "nom": "img5", "url": "Moul_17.05.jpg" },
+          { "nom": "img6", "url": "Moul_17.06.jpg" }
+        ]
+      },
+      { "name": "Lionceau",
+        "slug": "lionceau",
+        "image": "Moul_18.00.jpg",
+        "description": "Lionceau ",
+        "techno":"Lionceau (Panthera leo) / Dissection Cavités Abdominale et Thoracique / 45 cm  Moule bateau une poche sous chape / Tirage en résine Poluyréthane / Peinture acrylique et huile / Pinceau et aérographe/https://www.oniris-nantes.fr/fileadmin/Etude/CAC/numero4/Boisgard_et_al_C_C4.pdf.",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_18.01.jpg" },
+          { "nom": "img2", "url": "Moul_18.02.jpg" }
+        ]
+      },
+      { "name": "Dent Megalodon",
+        "slug": "dent-megalodon",
+        "image": "Moul_19.00.jpg",
+        "description": "Dent de Mégalodon",
+        "techno":"Dent de Mégalodon / 10 cm / Moule en bateau à une poche / Tirage en résine polyuréthane /Peinture acrylique / Pinceau et aérographe. Copie à gauche- Original à droite.",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_19.01.jpg" },
+          { "nom": "img2", "url": "Moul_19.02.jpg" },
+          { "nom": "img3", "url": "Moul_19.03.jpg" }
+         ]
+      },
+      { "name": "Mosasaure",
+        "slug": "mosasaure",
+        "image": "Moul_20.00.jpg",
+        "description": "Crâne de Mosasaure",
+        "techno":"Crâne de Mosasaure / Mosasaure platacarpus / 50 cm / Moulage par estampage / Tirage en résine polyuréthane /Peinture acrylique / Pinceau et aérographe. ",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_20.01.jpg" },
+          { "nom": "img2", "url": "Moul_20.02.jpg" },
+          { "nom": "img3", "url": "Moul_20.03.jpg" },
+          { "nom": "img4", "url": "Moul_20.04.jpg" }
+        ]
+      },
+      { "name": "Nautile",
+        "slug": "nautile",
+        "image": "Moul_21.00.jpg",
+        "description": "Nautile",
+        "techno":"Nautile (Nautilus pompilius ) / 25 cm / Moule en bateau à une poche / Tirage en résine polyuréthane /Peinture acrylique / Pinceau et aérographe https://www.biosphoto.com/fichedoc.php?id=166262&k=e3e890f676b26bba3e1ce4c036b6bb481a0701dd&lang=fr.",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_21.01.jpg" },
+          { "nom": "img2", "url": "Moul_21.02.jpg" },
+          { "nom": "img3", "url": "Moul_21.03.jpg" }
+        ]
+      },
+      { "name": "Panthera uncia",
+        "slug": "Panthera uncia",
+        "image": "Moul_22.00.jpg",
+        "description": "Sternum de panthère",
+        "techno":"Sternum de panthère des neiges monté sur squelette / 40 cm / Moule bateau deux poches / insertion des sternèbres dans une résine transparente/ Tirage en élastomère de Polyuréthane/ teinté dans la masse.",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_22.01.jpg" },
+          { "nom": "img2", "url": "Moul_22.02.jpg" },
+          { "nom": "img3", "url": "Moul_22.03.jpg" }
+        ]
+      },
+      { "name": "Mola Mola",
+        "slug": "Mola-mola",
+        "image": "Moul_23.00.jpg",
+        "description": "Poisson lune",
+        "techno":"Poisson lune ( Mola mola) / 180 cm /Moulage par estampage / Tirage en résine polyuréthane / peinture acrylique / Pinceau et aérographe/https://www.oniris-nantes.fr/fileadmin/Etude/CAC/numero9/Ledrapier_at_al_C_C9.pdf/https://www.em-consulte.com/article/779841/article/visceral-anatomy-of-ocean-sunfish-l-1758-molidae-t.",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_23.01.jpg" },
+          { "nom": "img2", "url": "Moul_23.02.jpg" },
+          { "nom": "img3", "url": "Moul_23.03.jpg" },
+          { "nom": "img4", "url": "Moul_23.04.jpg" },
+          { "nom": "img5", "url": "Moul_23.05.jpg" },
+          { "nom": "img6", "url": "Moul_23.06.jpg" },
+          { "nom": "img7", "url": "Moul_23.07.jpg" },
+          { "nom": "img8", "url": "Moul_23.08.jpg" },
+          { "nom": "img9", "url": "Moul_23.09.jpg" }
+        ]
+      },
+      { "name": "Ranzania laevis",
+        "slug": "Ranzania laevis",
+        "image": "Moul_24.00.jpg",
+        "description": "Poisson Lune (Dissection)",
+        "techno":"Poisson Lune (Ranzania laevis) Corps entier / Dissection / 50 cm / Moule bateau une poche / Tirage en résine Polyuréthane  / Peinture acrylique et huile / Pinceau et aérographe.",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_24.01.jpg" },
+          { "nom": "img2", "url": "Moul_24.02.jpg" }
+        ]
+      },
+      { "name": "Poisson papillon",
+        "slug": "poisson-papillon",
+        "image": "Moul_25.00.jpg",
+        "description": "Poisson papillon jaune",
+        "techno":"Poisson-papillon jaune / Chaetodon semilarvatus / 20 cm /Moule en bateau à une poche / Tirage en résine polyuréthane /Peinture acrylique / Pinceau et aérographe.",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_25.01.jpg" },
+          { "nom": "img2", "url": "Moul_25.02.jpg" },
+          { "nom": "img3", "url": "Moul_25.03.jpg" }
+        ]
+      },
+      { "name": "Sus scrofa",
+        "slug": "sus-scrofa",
+        "image": "Moul_26.00.jpg",
+        "description": "cœur de porc",
+        "techno":"Cœur de Porc (Sus scrofa) plastiné / 20 cm / Essai de mise en teinte d’une pièce imprégnée de silicone / Pinceau.",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_26.01.jpg" },
+          { "nom": "img2", "url": "Moul_26.02.jpg" },
+          { "nom": "img3", "url": "Moul_26.03.jpg" },
+          { "nom": "img4", "url": "Moul_26.04.jpg" }
+        ]
+      },
+      { "name": "Puma concolor",
+        "slug": "puma-concolor",
+        "image": "Moul_27.00.jpg",
+        "description": "Tête de puma (dissection)",
+        "techno":"Dissection en trois plans de tête de puma (Puma concolor) : Tête osseuse-Système nerveux central-Crâne en coupe médiane / 35 cm / Moulage par estampage / Tirage en résine Polyuréthane  / Peinture acrylique et huile / Pinceau et aérographe.",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_27.01.jpg" },
+          { "nom": "img2", "url": "Moul_27.02.jpg" },
+          { "nom": "img3", "url": "Moul_27.03.jpg" },
+          { "nom": "img4", "url": "Moul_27.04.jpg" },
+          { "nom": "img5", "url": "Moul_27.05.jpg" }
+        ]
+      },
+      { "name": "Requin Pointe Noire",
+        "slug": "requin-pointe-noire",
+        "image": "Moul_28.00.jpg",
+        "description": "Tête de requin (Dissection)",
+        "techno":"Requin  pointes noires (Carcharinus melanopterus) / Encéphale (Dissection en deux plans) / 25 cm / Moule en bateau une poche / Tirage en résine Polyuréthane  / Peinture acrylique et huile / Pinceau et aérographe.",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_28.01.jpg" },
+          { "nom": "img2", "url": "Moul_28.02.jpg" },
+          { "nom": "img3", "url": "Moul_28.03.jpg" },
+          { "nom": "img4", "url": "Moul_28.04.jpg" },
+          { "nom": "img5", "url": "Moul_28.05.jpg" },
+          { "nom": "img6", "url": "Moul_28.06.jpg" },
+          { "nom": "img7", "url": "Moul_28.07.jpg" },
+          { "nom": "img8", "url": "Moul_28.08.jpg" }
+        ]
+      },
+      { "name": "Requin Pointe Noire 2",
+        "slug": "requin-pointe-noire-2",
+        "image": "Moul_29.00.jpg",
+        "description": "Requin (dissection)",
+        "techno":"Corps entier de Requin Pointes Noires (Carcharinus melanopterus) / 130 cm / Moulage par estampage / Tirage en résine Polyuréthane  / Peinture acrylique et huile / Pinceau et aérographe.",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_29.01.jpg" },
+          { "nom": "img2", "url": "Moul_29.02.jpg" },
+          { "nom": "img3", "url": "Moul_29.03.jpg" },
+          { "nom": "img4", "url": "Moul_29.04.jpg" },
+          { "nom": "img5", "url": "Moul_29.05.jpg" },
+          { "nom": "img6", "url": "Moul_29.06.jpg" }
+        ]
+      },
+      { "name": "Crotalus durissus 2",
+        "slug": "Crotalus-durissus-2",
+        "image": "Moul_30.00.jpg",
+        "description": "Crotale cascabelle ",
+        "techno":"Corps entier de Crotale cascabelle (Crotalus durissus) / Dissection / 160 cm / Moule bateau une poche appliqué en projection / Tirage en résine polyuréthane / Peinture acrylique / Pinceau et aérographe/ https://www.oniris-nantes.fr/fileadmin/Etude/CAC/numero3/Moulding_of_the_viscera.pdf. ",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_30.01.jpg" },
+          { "nom": "img2", "url": "Moul_30.02.jpg" },
+          { "nom": "img3", "url": "Moul_30.03.jpg" },
+          { "nom": "img4", "url": "Moul_30.04.jpg" },
+          { "nom": "img5", "url": "Moul_30.05.jpg" }
+        ]
+      },
+      { "name": "Smilodon",
+        "slug": "smilodon",
+        "image": "Moul_31.00.jpg",
+        "description": "Crâne de smilodon",
+        "techno":"Smilodon / résine polyuréthane / 35x35x15",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_31.01.jpg" },
+          { "nom": "img2", "url": "Moul_31.02.jpg" },
+          { "nom": "img3", "url": "Moul_31.03.jpg" },
+          { "nom": "img4", "url": "Moul_31.04.jpg" },
+          { "nom": "img5", "url": "Moul_31.05.jpg" }
+        ]
+      },
+      { "name": "Coelacanthe 2",
+        "slug": "coelacanthe-2",
+        "image": "Moul_32.00.jpg",
+        "description": "Coelacanthe II",
+        "techno":"Coelacanthe (Latimeria chalumnae) flanc gauche / 170cm / Teintes naturelles / Peinture à l'huile",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_32.01.jpg" },
+          { "nom": "img2", "url": "Moul_32.02.jpg" },
+          { "nom": "img3", "url": "Moul_32.03.jpg" },
+          { "nom": "img4", "url": "Moul_32.04.jpg" }
+        ]
+      },
+      { "name": "Tortue luth",
+        "slug": "tortue-luth",
+        "image": "Moul_33.00.jpg",
+        "description": "Tortue luth",
+        "techno":"Tortue luth (Dermochelys coriacea) tuée par une hélice / Moulage silicone par estampage / Tirage en résine polyuréthane / Peinture à l'huile",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_33.01.jpg" },
+          { "nom": "img2", "url": "Moul_33.02.jpg" },
+          { "nom": "img3", "url": "Moul_33.03.jpg" },
+          { "nom": "img4", "url": "Moul_33.04.jpg" },
+          { "nom": "img5", "url": "Moul_33.05.jpg" },
+          { "nom": "img6", "url": "Moul_33.06.jpg" },
+          { "nom": "img7", "url": "Moul_33.07.jpg" },
+          { "nom": "img8", "url": "Moul_33.08.jpg" },
+          { "nom": "img9", "url": "Moul_33.09.jpg" }
+        ]
+      },
+      { "name": "Tortue Floride",
+        "slug": "tortue-floride",
+        "image": "Moul_34.00.jpg",
+        "description": "Tortue de Floride",
+        "techno":"Tortue de floride (Trachemys scripta elegans) / 40 cm / Tirage en résine Polyuréthane  / Peinture acrylique et huile / Pinceau & aérographe.",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_34.01.jpg" },
+          { "nom": "img2", "url": "Moul_34.02.jpg" }
+        ]
+      },
+      { "name": "Musée Gallo-romain",
+        "slug": "musée-gallo-romain",
+        "image": "Moul_35.00.jpg",
+        "description": "Musée Gallo-romain",
+        "techno":"",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_35.01.jpg" },
+          { "nom": "img2", "url": "Moul_35.02.jpg" },
+          { "nom": "img3", "url": "Moul_35.03.jpg" },
+          { "nom": "img4", "url": "Moul_35.04.jpg" },
+          { "nom": "img5", "url": "Moul_35.05.jpg" },
+          { "nom": "img6", "url": "Moul_35.06.jpg" },
+          { "nom": "img7", "url": "Moul_35.07.jpg" }
+        ]
+      },
+      { "name": "Anatomie",
+        "slug": "anatomie",
+        "image": "Moul_36.00.jpg",
+        "description": "Anatomie",
+        "techno": "",
+        "listeImages": [
+          { "nom": "img1", "url": "Moul_36.01.jpg" },
+          { "nom": "img2", "url": "Moul_36.02.jpg" },
+          { "nom": "img3", "url": "Moul_36.03.jpg" },
+          { "nom": "img4", "url": "Moul_36.04.jpg" },
+          { "nom": "img5", "url": "Moul_36.05.jpg" },
+          { "nom": "img6", "url": "Moul_36.06.jpg" }
+        ]
+      }
+    ]
+  },
+  { "name": "Modelages",
+    "typeName": "Modelage",
+    "slugType": "Modelages",
+    "image": "Mode_00.00.jpg",
+    "id": 2,
+    "description": "Quelques exemples de modelages lorsque les techniques de moulage sont impossibles.",
+    "listeRealisations": [
+      { "name": "Têtes momifiées",
+        "slug": "têtes-momifiées",
+        "image": "Mode_02.00.jpg",
+        "description": "Têtes momifiées",
+        "techno":"Têtes momifiées / Echelle 1:1 / 20 cm / Résine époxy de prototypage et résine polyuréthane / Peinture acrylique / Pinceau.",
+        "listeImages": [
+          { "nom": "img1", "url": "Mode_02.01.jpg" }
+        ]
+      },
+      { "name": "Chimpanzé",
+        "slug": "chimpanze",
+        "image": "Mode_04.00.jpg",
+        "description": "Tête de chimpanzé",
+        "techno":"Tête de chimpanzé / Echelle 1:1 / 20 cm /Modelage en plastiline-Tirage en élastomère de polyuréthane.",
+        "listeImages": [
+          { "nom": "img1", "url": "Mode_04.01.jpg" },
+          { "nom": "img2", "url": "Mode_04.02.jpg" },
+          { "nom": "img3", "url": "Mode_04.03.jpg" },
+          { "nom": "img4", "url": "Mode_04.04.jpg" },
+          { "nom": "img5", "url": "Mode_04.05.jpg" }
+        ]
+      },
+      { "name": "Tête d’Alien",
+        "slug": "tete-d’alien",
+        "image": "Mode_05.00.jpg",
+        "description": "Tête d’Alien",
+        "techno":"Tête d’Alien /  Echelle 1:2 / 70 cm / Résine époxy de prototypage / Peinture acrylique / Pinceau et aérographe.",
+        "listeImages": [
+          { "nom": "img1", "url": "Mode_05.01.jpg" },
+          { "nom": "img2", "url": "Mode_05.02.jpg" },
+          { "nom": "img3", "url": "Mode_05.03.jpg" }
+        ]
+      },
+      { "name": "Tête Tapejara",
+        "slug": "tete-tapejara",
+        "image": "Mode_06.00.jpg",
+        "description": "Tête de tapejara",
+        "techno":"Essai de reconstitution de tête de Tapejara / Tapejara imperator / Echelle 1:2 / 40 cm / Modelage en plastiline-Tirage en résine polyuréthane  / Résine époxy de prototypage et résine polyuréthane / Peinture acrylique / Pinceau et aérographe .",
+        "listeImages": [
+          { "nom": "img1", "url": "Mode_06.01.jpg" },
+          { "nom": "img2", "url": "Mode_06.02.jpg" },
+          { "nom": "img3", "url": "Mode_06.03.jpg" }
+        ]
+      },
+      { "name": "Ornithorynque",
+        "slug": "ornithorynque",
+        "image": "Mode_07.00.jpg",
+        "description": "Ornithorynque",
+        "techno":"Patte d’ornithorynque / Ornithorhynchus anatinus / Echelle 1:1 / 10 cm / Résine époxy de prototypage / Peinture acrylique / Pinceau et aérographe.",
+        "listeImages": [
+          { "nom": "img1", "url": "Mode_07.01.jpg" },
+          { "nom": "img2", "url": "Mode_07.02.jpg" }
+        ]
+      },
+      { "name": "Nepa cinerea",
+        "slug": "nepa cinerea",
+        "image": "Mode_08.00.jpg",
+        "description": "Nepe cendrée",
+        "techno":"Nèpe cendrée (Nepa cinerea) /  Echelle 15:1 / 40 cm / Résine époxy de prototypage / Peinture acrylique / Pinceau et aérographe.",
+        "listeImages": [
+          { "nom": "img1", "url": "Mode_08.01.jpg" },
+          { "nom": "img2", "url": "Mode_08.02.jpg" },
+          { "nom": "img3", "url": "Mode_08.03.jpg" },
+          { "nom": "img4", "url": "Mode_08.04.jpg" },
+          { "nom": "img5", "url": "Mode_08.05.jpg" },
+          { "nom": "img6", "url": "Mode_08.06.jpg" },
+          { "nom": "img7", "url": "Mode_08.07.jpg" }
+        ]
+      },
+      { "name": "Elephant Man",
+        "slug": "Elephant Man",
+        "image": "Mode_09.00.jpg",
+        "description": "Crâne \"elephant man\"",
+        "techno":"Crâne de John Merrick dit Elephant Man (05/02/1862 - 11/04/1890) / Echelle 1:1 / 25 cm / Résine époxy de prototypage et résine polyuréthane / Peinture acrylique / Pinceau et aérographe.",
+        "listeImages": [
+          { "nom": "img1", "url": "Mode_09.01.jpg" },
+          { "nom": "img2", "url": "Mode_09.02.jpg" },
+          { "nom": "img3", "url": "Mode_09.03.jpg" }
+        ]
+      },
+      { "name": "Megarachne",
+        "slug": "megarachne",
+        "image": "Mode_10.00.jpg",
+        "description": "Scorpion de mer",
+        "techno":"Megarachne servinei / Résine de prototypage et résine polyuréthane / Peinture acrylique / Pinceau / Aérographe",
+        "listeImages": [
+          { "nom": "img1", "url": "Mode_10.01.jpg" },
+          { "nom": "img2", "url": "Mode_10.02.jpg" },
+          { "nom": "img3", "url": "Mode_10.03.jpg" },
+          { "nom": "img4", "url": "Mode_10.04.jpg" },
+          { "nom": "img5", "url": "Mode_10.05.jpg" }
+        ]
+      },
+      { "name": "Rodolfensus",
+        "slug": "rodolfensus",
+        "image": "Mode_11.00.jpg",
+        "description": "Homo rudolfensis",
+        "techno":"Homo rudolfensis / moulage et modelage / Résine polyuréthane",
+        "listeImages": [
+          { "nom": "img1", "url": "Mode_11.01.jpg" },
+          { "nom": "img2", "url": "Mode_11.02.jpg" },
+          { "nom": "img3", "url": "Mode_11.03.jpg" },
+          { "nom": "img4", "url": "Mode_11.04.jpg" },
+          { "nom": "img5", "url": "Mode_11.05.jpg" },
+          { "nom": "img6", "url": "Mode_11.06.jpg" },
+          { "nom": "img7", "url": "Mode_11.07.jpg" },
+          { "nom": "img8", "url": "Mode_11.08.jpg" },
+          { "nom": "img9", "url": "Mode_11.09.jpg" },
+          { "nom": "img10", "url": "Mode_11.10.jpg" },
+          { "nom": "img11", "url": "Mode_11.11.jpg" },
+          { "nom": "img12", "url": "Mode_11.12.jpg" },
+          { "nom": "img13", "url": "Mode_11.13.jpg" },
+          { "nom": "img14", "url": "Mode_11.14.jpg" },
+          { "nom": "img15", "url": "Mode_11.15.jpg" }
+        ]
+      },
+      { "name": "Chenille",
+        "slug": "chenille",
+        "image": "Mode_12.00.jpg",
+        "description": "Chenille à queue fourchue",
+        "techno":"Chenille de Cerura vinula / Grossissement x10 / 70 cm / résine de prototypage / Peinture acrylique / Pinceau / Aérographe",
+        "listeImages": [
+          { "nom": "img1", "url": "Mode_12.01.jpg" },
+          { "nom": "img2", "url": "Mode_12.02.jpg" },
+          { "nom": "img3", "url": "Mode_12.03.jpg" },
+          { "nom": "img4", "url": "Mode_12.04.jpg" },
+          { "nom": "img5", "url": "Mode_12.05.jpg" }
+        ]
+      },
+      { "name": "Dendrobate",
+        "slug": "dendrobate",
+        "image": "Mode_13.00.jpg",
+        "description": "Dendrobate",
+        "techno": "pas de techno",
+        "listeImages": [
+          { "nom": "img1", "url": "Mode_13.01.jpg" },
+          { "nom": "img2", "url": "Mode_13.02.jpg" },
+          { "nom": "img3", "url": "Mode_13.03.jpg" },
+          { "nom": "img4", "url": "Mode_13.04.jpg" }
+        ]
+      },
+      { "name": "Anomalocaris",
+        "slug": "anomalocaris",
+        "image": "Mode_14.00.jpg",
+        "description": "Anomalocaris",
+        "techno": "",
+        "listeImages": [
+          { "nom": "img1", "url": "Mode_14.01.jpg" },
+          { "nom": "img2", "url": "Mode_14.02.jpg" },
+          { "nom": "img3", "url": "Mode_14.03.jpg" },
+          { "nom": "img4", "url": "Mode_14.04.jpg" }
+        ]
+      }
+    ]
+  },
+  { "name": "Créations",
+    "typeName": "Création",
+    "slugType": "Creations",
+    "image": "Crea_00.00.jpg",
+    "id": 3,
+    "description": "Quelques exemples de pièces moins \"académiques\".",
+    "listeRealisations": [
+      { "name": "Crâne décoré",
+        "slug": "crane_decore",
+        "image": "Crea_01.00.jpg",
+        "description": "Crâne  trophée",
+        "techno":"Crâne humain trophée / échelle 1 / inspiration Asmat, Papouasie Nouvelle-Guinée. Yeux incrustés de coquillages, coiffé d'une couronne de graines et de coquillages, ornement nasal.",
+        "listeImages": [
+          { "nom": "img1", "url": "Crea_01.01.jpg" },
+          { "nom": "img2", "url": "Crea_01.02.jpg" },
+          { "nom": "img3", "url": "Crea_01.03.jpg" },
+          { "nom": "img4", "url": "Crea_01.04.jpg" }
+        ]
+      },
+      { "name": "Insigne Harley Davidson",
+        "slug": "Harley",
+        "image": "Crea_02.00.jpg",
+        "description": "Plaque HD",
+        "techno":"Plaque Harley Davidson 40x25x2 cm / résine polyuréthane / Peinture acrylique / Pinceau",
+        "listeImages": [
+          { "nom": "img1", "url": "Crea_02.01.jpg" },
+          { "nom": "img2", "url": "Crea_02.02.jpg" },
+          { "nom": "img3", "url": "Crea_02.03.jpg" }
+        ]
+      },
+      { "name": "Momie inca",
+        "slug": "rascar_capac",
+        "image": "Crea_03.00.jpg",
+        "description": "Momie Péruvienne ",
+        "techno":"Momie Péruvienne au 1/6ème extraite de son fardo / résine de prototypage",
+        "listeImages": [
+          { "nom": "img1", "url": "Crea_03.01.jpg" },
+          { "nom": "img2", "url": "Crea_03.02.jpg" }
+        ]
+      },
+      { "name": "Mouche robot",
+        "slug": "MecaMouche",
+        "image": "Crea_04.00.jpg",
+        "description": "Mouche Steam Punk",
+        "techno":"Mouche Steam Punk. 15x12x10 cm. Accessoire de décor pour le cinéma",
+        "listeImages": [
+          { "nom": "img1", "url": "Crea_04.01.jpg" },
+          { "nom": "img2", "url": "Crea_04.02.jpg" },
+          { "nom": "img3", "url": "Crea_04.03.jpg" },
+          { "nom": "img4", "url": "Crea_04.04.jpg" },
+          { "nom": "img5", "url": "Crea_04.05.jpg" },
+          { "nom": "img6", "url": "Crea_04.06.jpg" }
+        ]
+      },
+      { "name": "Gueule Cassée",
+        "slug": "gueule_casse",
+        "image": "Crea_07.00.jpg",
+        "description": "Tirailleur",
+        "techno":"Tête de tirailleur Sénégalais réalisée pour l'exposition \"Gueules Cassées\" 2018.",
+        "listeImages": [
+          { "nom": "img1", "url": "Crea_07.01.jpg" },
+          { "nom": "img2", "url": "Crea_07.02.jpg" },
+          { "nom": "img3", "url": "Crea_07.03.jpg" }
+        ]
+      },
+      { "name": "Sirène",
+        "slug": "sirene",
+        "image": "Crea_08.00.jpg",
+        "description": "Sirène ",
+        "techno":"Sirène grandeur nature (2m50). Exposition \"Anatomie des espèces imaginaires\"",
+        "liens": "https://www.google.com",
+        "listeImages": [
+          { "nom": "img1", "url": "Crea_08.01.jpg" },
+          { "nom": "img2", "url": "Crea_08.02.jpg" },
+          { "nom": "img3", "url": "Crea_08.13.jpg" },
+          { "nom": "img4", "url": "Crea_08.04.jpg" },
+          { "nom": "img5", "url": "Crea_08.05.jpg" },
+          { "nom": "img6", "url": "Crea_08.06.jpg" },
+          { "nom": "img7", "url": "Crea_08.07.jpg" },
+          { "nom": "img8", "url": "Crea_08.08.jpg" },
+          { "nom": "img9", "url": "Crea_08.09.jpg" },
+          { "nom": "img10", "url": "Crea_08.10.jpg" },
+          { "nom": "img11", "url": "Crea_08.11.jpg" },
+          { "nom": "img12", "url": "Crea_08.12.jpg" }
+        ]
+      },
+      { "name": "Mandragore",
+        "slug": "mandragore",
+        "image": "Crea_09.00.jpg",
+        "description": "Racine de mandragore",
+        "techno":"Racine de mandragore. Echelle1 (Inspirée du film Harry Potter) https://www.ouest-france.fr/pays-de-la-loire/nantes-44000/nantes-d-etranges-creatures-aux-utopiales-6047613",
+        "listeImages": [
+          { "nom": "img1", "url": "Crea_09.01.jpg" },
+          { "nom": "img2", "url": "Crea_09.02.jpg" },
+          { "nom": "img3", "url": "Crea_09.03.jpg" },
+          { "nom": "img4", "url": "Crea_09.04.jpg" }
+        ]
+      },
+      { "name": "Crâne déformé",
+        "slug": "crâne-deforme",
+        "image": "Crea_11.00.jpg",
+        "description": "Crâne humain monstrueux",
+        "techno":"Crâne Humain monstrueux / Echelle 1:1 / 20 cm / Résine époxy de prototypage et résine polyuréthane / Peinture acrylique / Pinceau et aérographe .",
+        "listeImages": [
+          { "nom": "img1", "url": "Crea_11.01.jpg" },
+          { "nom": "img2", "url": "Crea_11.02.jpg" },
+          { "nom": "img3", "url": "Crea_11.03.jpg" },
+          { "nom": "img4", "url": "Crea_11.04.jpg" },
+          { "nom": "img5", "url": "Crea_11.05.jpg" }
+        ]
+      },
+      { "name": "Tête d’Aigle",
+        "slug": "tête-d’aigle",
+        "image": "Crea_12.00.jpg",
+        "description": "Tête d’Aigle",
+        "techno":"Tête d'aigle / 25x30 cm / Moulage en bateau / Tirage en résine Polyuréthane / Peinture huile et acrylique/Pinceau",
+        "listeImages": [
+          { "nom": "img1", "url": "Crea_12.01.jpg" },
+          { "nom": "img2", "url": "Crea_12.02.jpg" }
+        ]
+      },
+      { "name": "Bronze Chimpanzé",
+        "slug": "bronze-chimpanze",
+        "image": "Crea_13.00.jpg",
+        "description": "Bronze Chimpanzé",
+        "techno":"Tête de chimpanzé / Modelage / patine bronze / Pinceau / Aérographe",
+        "listeImages": [
+          { "nom": "img1", "url": "Crea_13.01.jpg" },
+          { "nom": "img2", "url": "Crea_13.02.jpg" },
+          { "nom": "img3", "url": "Crea_13.03.jpg" },
+          { "nom": "img4", "url": "Crea_13.04.jpg" }
+        ]
+      },
+      { "name": "Trophée chenille",
+        "slug": "trophee-chenille",
+        "image": "Crea_14.00.jpg",
+        "description": "Trophée chenille",
+        "techno":"Chenille de Cerura vinula / Grossissement x10 / 70 cm / Tirage en résine Polyuréthane / Peinture acrylique / Pinceau / Aérographe",
+        "listeImages": [
+          { "nom": "img1", "url": "Crea_14.01.jpg" },
+          { "nom": "img2", "url": "Crea_14.02.jpg" },
+          { "nom": "img3", "url": "Crea_14.03.jpg" }
+        ]
+      },
+      { "name": "Œil Humain",
+        "slug": "oeil-humain",
+        "image": "Crea_15.00.jpg",
+        "description": "Œil humain",
+        "techno": "Œil humain, Echelle 1. Accessoire pour un cabinet de curiosités",
+        "listeImages": [
+          { "nom": "img1", "url": "Crea_15.01.jpg" },
+          { "nom": "img2", "url": "Crea_15.02.jpg" },
+          { "nom": "img3", "url": "Crea_15.03.jpg" },
+          { "nom": "img4", "url": "Crea_15.04.jpg" }
+        ]
+      },
+      { "name": "Décor Pirate",
+        "slug": "decor-pirate",
+        "image": "Crea_16.00.jpg",
+        "description": "Drapeau pirate",
+        "techno": "Drapeau pirate. Elément de décor pour le théatre",
+        "listeImages": [
+          { "nom": "img1", "url": "Crea_16.01.jpg" },
+          { "nom": "img2", "url": "Crea_16.02.jpg" },
+          { "nom": "img3", "url": "Crea_16.03.jpg" }
+        ]
+      },
+      { "name": "Trophée gourmand",
+        "slug": "trophee-gourmand",
+        "image": "Crea_17.00.jpg",
+        "description": "Trophée \"Gourmandise\"",
+        "techno": "Trophées du festival expression numérique 2017 \"Gourmandise\"",
+        "listeImages": [
+          { "nom": "img1", "url": "Crea_17.01.jpg" },
+          { "nom": "img2", "url": "Crea_17.02.jpg" },
+          { "nom": "img3", "url": "Crea_17.03.jpg" }
+        ]
+      }
+    ]
+  },
+  { "name": "Coulisses",
+    "typeName":"Coulisse",
+    "slugType": "coulisses",
+    "image": "Coul_00.00.jpg",
+    "id": 4,
+    "description": "\"Making of\" Illustrant les techniques et les situations de quelques réalisations présentées sur le site.",
+    "listeRealisations": [
+      { "name": "Tapejara (Coulisse)",
+        "slug": "tapejara-(coulisse)",
+        "image": "Coul_01.00.jpg",
+        "description": "Tapejara",
+        "techno":"",
+        "listeImages": [
+          { "nom": "img1", "url": "Coul_01.01.jpg" },
+          { "nom": "img2", "url": "Coul_01.02.jpg" },
+          { "nom": "img3", "url": "Coul_01.03.jpg" },
+          { "nom": "img4", "url": "Coul_01.04.jpg" },
+          { "nom": "img5", "url": "Coul_01.05.jpg" }
+        ]
+      },
+      { "name": "Buste en bronze(Colisse)",
+        "slug": "buste-en-bronze(colisse)",
+        "image": "Coul_02.00.jpg",
+        "description": "Buste en bronze",
+        "techno":"Matrice réalisée au cimetère de la Miséricorde à Nantes(44) / moulage par estampage sous coque epoxy « Moulage du buste de Philippe Gengembre », Armor-Numis, no 124,? février 2010",
+        "listeImages": [
+          { "nom": "img1", "url": "Coul_02.01.jpg" },
+          { "nom": "img2", "url": "Coul_02.02.jpg" },
+          { "nom": "img3", "url": "Coul_02.03.jpg" },
+          { "nom": "img4", "url": "Coul_02.04.jpg" },
+          { "nom": "img5", "url": "Coul_02.05.jpg" },
+          { "nom": "img6", "url": "Coul_02.06.jpg" },
+          { "nom": "img7", "url": "Coul_02.07.jpg" },
+          { "nom": "img8", "url": "Coul_02.08.jpg" },
+          { "nom": "img9", "url": "Coul_02.09.jpg" }
+        ]
+      },
+      { "name": "Chimpanzé (Coulisse)",
+        "slug": "chimpanzé-(coulisse)",
+        "image": "Coul_03.00.jpg",
+        "description": "Chimpanzé",
+        "techno":"Réalisation au pistolet pneumatique d'une matrice en silicone projeté. https://nantes.maville.com/actu/actudet_-nantes.-le-precieux-mouleur-du-museum_52716-3350454_actu.Htm",
+        "listeImages": [
+          { "nom": "img1", "url": "Coul_03.01.jpg" },
+          { "nom": "img2", "url": "Coul_03.02.jpg" },
+          { "nom": "img3", "url": "Coul_03.03.jpg" },
+          { "nom": "img4", "url": "Coul_03.04.jpg" },
+          { "nom": "img5", "url": "Coul_03.05.jpg" },
+          { "nom": "img6", "url": "Coul_03.06.jpg" }
+        ]
+      },
+      { "name": "Dissection humaine(Coulisse)",
+        "slug": "dissection-humaine(coulisse)",
+        "image": "Coul_04.00.jpg",
+        "description": "Dissection humaine",
+        "techno":"Dissection de cou humain  réalisée au laboratoire d'Anatomie d'Angers",
+        "listeImages": [
+          { "nom": "img1", "url": "Coul_04.01.jpg" },
+          { "nom": "img2", "url": "Coul_04.02.jpg" },
+          { "nom": "img3", "url": "Coul_04.03.jpg" },
+          { "nom": "img4", "url": "Coul_04.04.jpg" },
+          { "nom": "img5", "url": "Coul_04.05.jpg" },
+          { "nom": "img6", "url": "Coul_04.06.jpg" },
+          { "nom": "img7", "url": "Coul_04.07.jpg" },
+          { "nom": "img8", "url": "Coul_04.08.jpg" }
+        ]
+      },
+      { "name": "Lionceau (Coulisse)",
+        "slug": "lionceau-(coulisse)",
+        "image": "Coul_05.00.jpg",
+        "description": "Lionceau",
+        "techno":"Dissection de lionceau réalisée dans le cadre d'une thèse vétérinaire.",
+        "listeImages": [
+          { "nom": "img1", "url": "Coul_05.01.jpg" },
+          { "nom": "img2", "url": "Coul_05.02.jpg" },
+          { "nom": "img3", "url": "Coul_05.03.jpg" },
+          { "nom": "img4", "url": "Coul_05.04.jpg" },
+          { "nom": "img5", "url": "Coul_05.05.jpg" },
+          { "nom": "img6", "url": "Coul_05.06.jpg" },
+          { "nom": "img7", "url": "Coul_05.07.jpg" },
+          { "nom": "img8", "url": "Coul_05.08.jpg" },
+          { "nom": "img9", "url": "Coul_05.09.jpg" },
+          { "nom": "img10", "url": "Coul_05.10.jpg" },
+          { "nom": "img11", "url": "Coul_05.11.jpg" },
+          { "nom": "img12", "url": "Coul_05.12.jpg" },
+          { "nom": "img13", "url": "Coul_05.13.jpg" }
+        ]
+      },
+      { "name": "Poisson Lune (Coulisse)",
+        "slug": "poisson-lune-(coulisse)",
+        "image": "Coul_06.00.jpg",
+        "description": "Poisson Lune.",
+        "techno":"",
+        "listeImages": [
+          { "nom": "img1", "url": "Coul_06.01.jpg" },
+          { "nom": "img2", "url": "Coul_06.02.jpg" },
+          { "nom": "img3", "url": "Coul_06.03.jpg" },
+          { "nom": "img4", "url": "Coul_06.04.jpg" },
+          { "nom": "img5", "url": "Coul_06.05.jpg" },
+          { "nom": "img6", "url": "Coul_06.06.jpg" },
+          { "nom": "img7", "url": "Coul_06.07.jpg" },
+          { "nom": "img8", "url": "Coul_06.08.jpg" },
+          { "nom": "img9", "url": "Coul_06.09.jpg" }
+        ]
+      },
+      { "name": "Requin pointe noire (Coulisse)",
+        "slug": "requin-pointe-noire-(coulisse)",
+        "image": "Coul_07.00.jpg",
+        "description": "Requin pointe noire",
+        "techno":"Dissection réalisée dans le cadre d'une thèse vétérinaire",
+        "listeImages": [
+          { "nom": "img1", "url": "Coul_07.01.jpg" },
+          { "nom": "img2", "url": "Coul_07.02.jpg" },
+          { "nom": "img3", "url": "Coul_07.03.jpg" },
+          { "nom": "img4", "url": "Coul_07.04.jpg" },
+          { "nom": "img5", "url": "Coul_07.05.jpg" },
+          { "nom": "img6", "url": "Coul_07.06.jpg" },
+          { "nom": "img7", "url": "Coul_07.07.jpg" },
+          { "nom": "img8", "url": "Coul_07.08.jpg" },
+          { "nom": "img9", "url": "Coul_07.09.jpg" },
+          { "nom": "img10", "url": "Coul_07.10.jpg" },
+          { "nom": "img11", "url": "Coul_07.11.jpg" }
+        ]
+      }
+    ]
+  },
+  { "name": "Interventions",
+    "typeName":"Intervention",
+    "slugType": "interventions",
+    "image": "Inte_00.00.jpg",
+    "id": 5,
+    "description": "Quelques exemples  de coopérations personnelles ou professionnelles.",
+    "listeRealisations": [
+      { "name": "Nantes 2001-2015",
+        "slug": "Nantes0115",
+        "image": "Inte_02.00.jpg",
+        "description": "Muséum",
+        "techno":"Museum d’Histoire Naturelle de Nantes - (44) - 2001 – 2023 : Co-référent des réserves mutualisées, Responsable du laboratoire de préparation des collections, responsable des collections de crustacés, de coraux, de spongiaires, mouleur et  maquettiste pour les expositions permanentes et  temporaires",
+        "listeImages": [
+          { "nom": "img1", "url": "Inte_02.01.jpg" },
+          { "nom": "img2", "url": "Inte_02.02.jpg" }
+        ]
+      },
+      { "name": "CNRS",
+        "slug": "cnrs",
+        "image": "Inte_03.00.jpg",
+        "description": "C.N.R.S",
+        "techno":"C.N.R.S (Centre National de la Recherche Scientifique) - (69) - 1997- 2011 : Intervenant dans le stage du C.N.R.S formation  « Techniques de Moulages avec silicones et autres résines plastiques ». Responsable du moulage de tissus mous (Reptiles, Amphibiens, Poissons, Céphalopodes, Organes). Responsable de la mise en teinte à l’aérographe et des patines  de tirages réalisés au cours du stage.",
+        "listeImages": [
+          { "nom": "img1", "url": "Inte_03.01.jpg" },
+          { "nom": "img2", "url": "Inte_03.02.jpg" },
+          { "nom": "img3", "url": "Inte_03.03.jpg" }
+        ]
+      },
+      { "name": "INP",
+        "slug": "inp",
+        "image": "Inte_04.00.jpg",
+        "description": "I.N.P",
+        "techno":"I.N.P (Institut National du Patrimoine) - (93) - 2010-2023 : Responsable du stage de moulage et de patine aérographe. Département des restaurateurs du patrimoine - spécialités Mobilier - Sculpture - Arts du feu.https://www.ina.fr/ina-eclaire-actu/video/5343665_001_024/saint-denis-journees-du-patrimoine-2014-visite-de-l-institut-national",
+        "listeImages": [
+          { "nom": "img1", "url": "Inte_04.01.jpg" },
+          { "nom": "img2", "url": "Inte_04.02.jpg" },
+          { "nom": "img3", "url": "Inte_04.03.jpg" },
+          { "nom": "img4", "url": "Inte_04.04.jpg" },
+          { "nom": "img5", "url": "Inte_04.05.jpg" }
+        ]
+      },
+      { "name": "ONIRIS",
+        "slug": "oniris",
+        "image": "Inte_05.00.jpg",
+        "description": "ONIRIS",
+        "techno":"ONIRIS  (Ecole Nationale Vétérinaire, Agroalimentaire et de l’Alimentation Nantes-Atlantique) - (44) - 2002-2023 : Montages en ostéologie, participations à des dissections et autopsies (baudet, brebis, chien, crocodile, gibbon, girafe, hippopotame, kangourou, lapin, lionne, ours, panthère, poisson lune, porc,  requin, tortue, tigre, zèbre). 2009-2014 : Encadrement technique d’une  thèse vétérinaire intitulée : Le moulage, support pédagogique en anatomie comparée de la faune sauvage (études portant sur un puma, un crotale, un kangourou, une girafe, un rhinocéros, un lionceau, un lion d’Asie). 2005 : Initiation à la plastination (cœur de porc) en partenariat avec l’Université du Québec à Trois Rivières (U.Q.T.R) – CANADA. Ces travaux ont fait l’objet de plusieurs publications sous l’égide du Laboratoire d’Anatomie Comparée de l’Ecole Nationale Vétérinaire.",
+        "listeImages": [
+          { "nom": "img1", "url": "Inte_05.01.jpg" },
+          { "nom": "img2", "url": "Inte_05.02.jpg" }
+        ]
+      },
+      { "name": "TALM",
+        "slug": "talm",
+        "image": "Inte_06.00.jpg",
+        "description": "TALM",
+        "techno":"TALM (Ecole Supérieure d'Art et de Design de Tours-Angers-Le Mans) - (37) - 2021-2023 : Responsable du stage de moulage.",
+        "listeImages": [
+          { "nom": "img1", "url": "Inte_06.01.jpg" }
+        ]
+      }
+    ]
+  }
+]
