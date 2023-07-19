@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply bg-slate-900 select-none;
+}
+
+.btn {
+  @apply uppercase font-medium text-slate-400 p-2 h-auto w-auto bg-gradient-to-br from-slate-700 to-slate-500 rounded-lg hover:bg-gradient-to-br hover:from-slate-500 hover:to-slate-300 hover:text-slate-900 md:text-xl z-50
+}

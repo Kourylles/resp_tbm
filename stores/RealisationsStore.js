@@ -4,15 +4,14 @@
 //PINIA
 import { defineStore } from 'pinia';
 //DATA
-import realisations from '@/data/data_objets.json';
+import dataReal from '../data/data_realisations.json';
 
-const useRealisationsStore = defineStore('RealisationsStore', {
+export const useRealisationsStore = defineStore('RealisationsStore', {
   //State
   state: () => {
     return {
-      realisations,
+      dataReal,
     };
   },
 });
 
-export default useRealisationsStore;
