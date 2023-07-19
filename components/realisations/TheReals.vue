@@ -1,12 +1,14 @@
 <template>
-  <div class="flex flex-row flex-wrap justify-evenly gap-4 gap-y-80 mt-8 h-full">
-    <div class=" h-20 w-96" v-for="real in realisationsStore.dataReal" :key="real.id" >
+  <div class="flex flex-row flex-wrap h-full gap-4 mt-8 justify-evenly gap-y-80">
+    <div class="h-20 w-96" v-for="real in realisationsStore.dataReal" :key="real.id" >
         <img class="rounded" :src="`/images/réalisations/presentation/${ real.image }`" alt="Photo">
       <div>
-        <div class="bg-slate-700 text-center rounded h-16">
-          <button class="btn mt-2">
-            {{ real.name }}
-          </button>
+        <div class="h-16 text-center rounded bg-slate-700">
+          <NuxtLink :to="`/realisations/${ real.id }`">
+            <button class="mt-2 btn">
+              {{ real.name }}
+            </button>
+          </NuxtLink>
         </div>
       </div>
     </div>
@@ -15,7 +17,7 @@
 
 
 <script setup>
-  // Récupération du store Accueil
+  // Récupération du store Réalisation
   import { useRealisationsStore } from "../../stores/RealisationsStore.js"
   const realisationsStore = useRealisationsStore()
 </script>
