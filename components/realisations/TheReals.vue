@@ -1,9 +1,9 @@
 <template>
 	<div
-		class="flex flex-col h-full gap-4 p-4 mx-auto mt-8 gap-y-80 md:flex-row md:flex-wrap md:justify-evenly"
+		class="flex flex-col h-full gap-4 p-4 mx-auto mt-8 gap-y-48 md:gap-y-80 md:flex-row md:flex-wrap md:justify-center"
 	>
 		<div
-			class="h-20 w-96"
+			class="w-48 h-10 mx-auto md:h-20 md:w-96"
 			v-for="real in realisationsStore.dataReal"
 			:key="real.id"
 		>
