@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto">
-    <RealisationsUneReal />
-  </div>
+	<div>
+		<RealisationsUneReal />
+	</div>
 </template>

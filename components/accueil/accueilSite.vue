@@ -21,7 +21,7 @@
 	</div>
 	<div class="max-h-full text-center">
 		<nuxt-link to="/realisations">
-			<button class="btn">Visitez</button>
+			<button class="md:text-xl md:font-extrabold btn">Visitez</button>
 		</nuxt-link>
 	</div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-    <AboutSite />
-    <slot />
-    <FooterSite /> 
+	<AboutSite />
+	<slot />
+	<FooterSite />
 </template>

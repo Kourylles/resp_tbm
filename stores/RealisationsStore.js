@@ -10,8 +10,13 @@ export const useRealisationsStore = defineStore('RealisationsStore', {
   //State
   state: () => {
     return {
-      dataReal,
-    };
+      dataReal
+    }
   },
+  getters: {
+    getRealById : (state) => {
+      return (idToFind) => state.dataReal.find((element) => element.id === idToFind)
+    }
+  }
 });
 
