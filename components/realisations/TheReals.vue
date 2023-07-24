@@ -1,9 +1,15 @@
+<script setup>
+// Récupération du store Réalisation
+import { useRealisationsStore } from '../../stores/RealisationsStore.js'
+const realisationsStore = useRealisationsStore()
+</script>
+
 <template>
 	<div
-		class="flex flex-col h-full gap-4 p-4 mx-auto mt-8 gap-y-48 md:gap-y-80 md:flex-row md:flex-wrap md:justify-center"
+		class="flex flex-row flex-wrap justify-center gap-4 p-4 mx-6 mt-8 gap-y-32 md:justify-center md:gap-y-80 md:flex-row"
 	>
 		<div
-			class="w-48 h-10 mx-auto md:h-20 md:w-96"
+			class="h-20 w-36 md:h-20 md:w-96"
 			v-for="real in realisationsStore.dataReal"
 			:key="real.id"
 		>
@@ -13,9 +19,9 @@
 				alt="Photo"
 			/>
 			<div>
-				<div class="h-16 text-center rounded bg-slate-700">
+				<div class="h-12 text-center rounded bg-slate-700">
 					<NuxtLink :to="`/realisations/${real.id}`">
-						<button class="mt-2 md:text-xl md:font-semibold btn">
+						<button class="text-sm md:text-xl md:font-semibold btn">
 							{{ real.name }}
 						</button>
 					</NuxtLink>
@@ -24,9 +30,3 @@
 		</div>
 	</div>
 </template>
-
-<script setup>
-// Récupération du store Réalisation
-import { useRealisationsStore } from '../../stores/RealisationsStore.js'
-const realisationsStore = useRealisationsStore()
-</script>

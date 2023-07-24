@@ -19,7 +19,7 @@
 			{{ accueilStore.dataAccueil.textDescriptif }}
 		</p>
 	</div>
-	<div class="max-h-full text-center">
+	<div class="text-center">
 		<nuxt-link to="/realisations">
 			<button class="md:text-xl md:font-extrabold btn">Visitez</button>
 		</nuxt-link>

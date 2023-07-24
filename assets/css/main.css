@@ -7,5 +7,5 @@ body {
 }
 
 .btn {
-	@apply uppercase text-slate-400 p-2 h-auto w-auto bg-gradient-to-br from-slate-700 to-slate-500 rounded-lg hover:bg-gradient-to-br hover:from-slate-500 hover:to-slate-300 hover:text-slate-900 z-50;
+	@apply uppercase text-slate-400 p-2 h-full w-full bg-gradient-to-br from-slate-700 to-slate-500 rounded-lg hover:bg-gradient-to-br hover:from-slate-500 hover:to-slate-300 hover:text-slate-900 z-50;
 }

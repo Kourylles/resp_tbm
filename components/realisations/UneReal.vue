@@ -37,8 +37,14 @@ const realisations = realisationsStore.dataReal[`${idRealIndex}`]
 			</div>
 		</div>
 		<!-- Présentation des réalisations du Type-->
+		<!-- 		<div
+			class="grid grid-cols-2 gap-28 md:mx-72 md:grid-cols-3 md:gap-32 text-slate-900 justify-evenly"
+		> -->
+		<!-- 		<div
+			class="grid grid-cols-2 text-slate-900 gap-28 md:mx-20 md:flex md:flex-row md:gap-32 md:justify-center md:flex-wrap"
+		> -->
 		<div
-			class="grid grid-cols-2 mx-10 gap-28 md:mx-72 md:grid-cols-3 md:gap-32 text-slate-900"
+			class="flex flex-row flex-wrap items-stretch justify-center gap-4 gap-y-28 text-slate-900 md:mx-20 md:flex md:flex-row md:gap-32 md:justify-center md:flex-wrap"
 		>
 			<div v-for="real in realisations.listeRealisations" :id="real.name">
 				<div class="h-20 mt-2 w-36 md:h-40 md:w-72">
@@ -50,7 +56,7 @@ const realisations = realisationsStore.dataReal[`${idRealIndex}`]
 
 					<div class="text-center rounded bg-slate-700">
 						<NuxtLink to="/">
-							<button class="m-2 text-sm font-medium btn">
+							<button class="text-sm font-medium btn md:text-lg">
 								{{ real.name }}
 							</button>
 						</NuxtLink>
