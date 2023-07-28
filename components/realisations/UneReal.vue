@@ -5,11 +5,17 @@ import { useRealisationsStore } from '../../stores/RealisationsStore.js'
 const realisationsStore = useRealisationsStore()
 const { getRealById } = storeToRefs(realisationsStore)
 
+// Récupération des paramètres de la route
+const route = useRoute()
+
 // Récupération de l'index 'Id de la route pour savoir quelle réalisation afficher
-const idRealIndex = parseInt(useRoute().params.id) - 1
+//const idRealIndex = parseInt(route.params.id) - 1
 
 // Récupération dans le store de l'objet correpondant à l'Id de la route
-const realisations = realisationsStore.dataReal[`${idRealIndex}`]
+//const realisations = realisationsStore.dataReal[`${idRealIndex}`]
+const realisations = realisationsStore.dataReal.find(
+	(real) => real.slugType === route.params.slugType
+)
 </script>
 
 <template>
@@ -21,7 +27,7 @@ const realisations = realisationsStore.dataReal[`${idRealIndex}`]
 			<div class="w-5/6 mb-10 lg:max-w-lg lg:w-full md:w-1/2 md:mb-0">
 				<img
 					class="object-cover object-center rounded"
-					alt="hero"
+					alt="photo"
 					:src="`/images/réalisations/presentation/${realisations.image}`"
 				/>
 			</div>
@@ -49,7 +55,9 @@ const realisations = realisationsStore.dataReal[`${idRealIndex}`]
 					/>
 
 					<div class="text-center rounded bg-slate-700">
-						<NuxtLink to="/">
+						<NuxtLink
+							:to="`/realisations/${realisations.slugType}/${real.slug}`"
+						>
 							<button class="text-sm font-medium btn md:text-lg">
 								{{ real.name }}
 							</button>

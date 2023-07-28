@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-aut">
-    <RealisationsTheReals />
-  </div>
+	<div class="mx-auto">
+		<RealisationsLesReals />
+	</div>
 </template>
