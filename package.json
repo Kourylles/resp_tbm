@@ -1,25 +1,26 @@
 {
-  "name": "nuxt-app",
-  "private": false,
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
-  },
-  "devDependencies": {
-    "@nuxt/devtools": "latest",
-    "@types/node": "^18",
-    "autoprefixer": "^10.4.14",
-    "nuxt": "^3.6.2",
-    "nuxt-icon": "^0.4.2",
-    "postcss": "^8.4.25",
-    "tailwindcss": "^3.3.2"
-  },
-  "dependencies": {
-    "@pinia/nuxt": "^0.4.11",
-    "pinia": "^2.1.4",
-    "swiper": "^10.0.4"
-  }
+	"name": "nuxt-app",
+	"private": false,
+	"license": "MIT",
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare"
+	},
+	"devDependencies": {
+		"@nuxt/devtools": "latest",
+		"@types/node": "^18",
+		"autoprefixer": "^10.4.14",
+		"nuxt": "^3.6.2",
+		"nuxt-icon": "^0.4.2",
+		"postcss": "^8.4.25",
+		"tailwindcss": "^3.3.2"
+	},
+	"dependencies": {
+		"@pinia/nuxt": "^0.4.11",
+		"pinia": "^2.1.4",
+		"sass": "^1.64.1"
+	}
 }

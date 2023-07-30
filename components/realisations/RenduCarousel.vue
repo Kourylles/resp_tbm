@@ -22,16 +22,26 @@ const realToShow = realisationDuType.listeRealisations.find(
 </script>
 
 <template>
-	<div class="mx-auto text-lg text-center mt-14 md:mt-4 text-slate-400">
-		{{ realToShow.name }} de la catégorie {{ realisationDuType.typeName }}
-		<br />
-		<h1 class="text-lg font-semibold">le carousel arrive bientôt...</h1>
-		<img
-			class="w-1/2 mx-auto mt-4 h-1/2"
-			:src="`/images/réalisations/objets/${realToShow.listeImages[0].url}`"
-			alt=""
-		/>
-	</div>
+	<CarousselTheCarousel
+		class="relative h-screen max-h-screen"
+		v-slot="{ currentSlide }"
+	>
+		<CarousselTheSlide
+			v-for="(photo, index) in realToShow.listeImages"
+			:key="index"
+		>
+			<div
+				class="absolute top-0 left-0 h-full max-h-full"
+				v-show="currentSlide === index + 1"
+			>
+				<img
+					:src="`/images/réalisations/objets/${photo.url}`"
+					alt="Photos"
+					class="object-cover h-full min-w-full"
+				/>
+			</div>
+		</CarousselTheSlide>
+	</CarousselTheCarousel>
+
 	<ButtonGoHome />
 </template>
-<style lang="scss" scoped></style>

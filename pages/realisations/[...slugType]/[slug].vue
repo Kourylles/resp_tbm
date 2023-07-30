@@ -1,5 +1,5 @@
 <template>
 	<div>
-		<RealisationsLeCarousel />
+		<RealisationsRenduCarousel />
 	</div>
 </template>
