@@ -77,8 +77,4 @@ onMounted(() => {
 .active {
 	width: 40px;
 }
-
-.disable {
-	opacity: 0;
-}
 </style>

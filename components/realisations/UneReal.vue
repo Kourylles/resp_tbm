@@ -58,7 +58,7 @@ const realisations = realisationsStore.dataReal.find(
 						<NuxtLink
 							:to="`/realisations/${realisations.slugType}/${real.slug}`"
 						>
-							<button class="text-sm font-medium btn md:text-lg">
+							<button class="w-full text-sm font-medium btn md:text-lg">
 								{{ real.name }}
 							</button>
 						</NuxtLink>

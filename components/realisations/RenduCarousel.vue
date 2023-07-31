@@ -67,7 +67,8 @@ const AffTechno = ref(false)
 		<div class="text-center">
 			<Icon
 				name="heroicons:information-circle-20-solid"
-				class="text-2xl hover:scale-125 btn"
+				class="w-10 text-2xl hover:scale-125 btn"
+				:class="{ disable: AffTechno === true }"
 				@Click="AffTechno = !AffTechno"
 			/>
 		</div>

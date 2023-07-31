@@ -1,5 +1,6 @@
 <template>
-  <div class="mx-auto min-h-screen">
-    <accueilSite/>
-  </div>
+	<div class="min-h-full mx-auto">
+		<AccueilSite />
+		<AboutSite />
+	</div>
 </template>

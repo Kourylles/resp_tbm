@@ -22,7 +22,7 @@ const realisationsStore = useRealisationsStore()
 				<div class="h-12 text-center rounded bg-slate-700">
 					<!-- <NuxtLink :to="`/realisations/${real.id}`"> -->
 					<NuxtLink :to="`/realisations/${real.slugType}`">
-						<button class="text-sm md:text-xl md:font-semibold btn">
+						<button class="w-full text-sm md:text-xl md:font-semibold btn">
 							{{ real.name }}
 						</button>
 					</NuxtLink>

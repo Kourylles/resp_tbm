@@ -40,12 +40,13 @@
 					Version 2.2.4.3 <br />
 					Dernière mise à jour du site <br />le 12/05/2023
 				</p>
-				<button
-					class="h-auto p-2 mb-4 font-bold rounded-lg text-slate-400 mt-28 w-28 md:mt-32 bg-gradient-to-br from-slate-700 to-slate-500 hover:bg-gradient-to-br hover:from-slate-500 hover:to-slate-300 hover:text-slate-900 md:text-xl"
-					@click="open = false"
-				>
-					Fermer
-				</button>
+				<div>
+					<Icon
+						name="heroicons:x-circle-solid"
+						class="w-10 h-10 mt-20 text-3xl hover:scale-125 btn"
+						@click="open = false"
+					/>
+				</div>
 			</div>
 		</div>
 	</Teleport>

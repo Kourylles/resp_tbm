@@ -1,5 +1,5 @@
 <template>
-	<AboutSite />
+	<!-- <AboutSite /> -->
 	<slot />
 	<ButtonScrollUp />
 	<FooterSite />
