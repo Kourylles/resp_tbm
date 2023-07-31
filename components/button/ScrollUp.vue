@@ -26,10 +26,10 @@ const scrollToTop = () => {
 <template>
 	<button
 		v-if="(scrollY = 0)"
-		class="fixed hidden w-6 h-6 text-sm text-white rounded-full right-3 md:w-10 md:h-10 bg-slate-500 md:right-1 bottom-11 bg-gradient-to-br from-slate-700 to-slate-500 hover:bg-gradient-to-br hover:from-slate-500 hover:to-slate-300 hover:text-slate-900"
+		class="fixed hidden w-6 h-6 text-sm text-white rounded-full right-3 md:w-10 md:h-10 bg-slate-500 md:right-1 bottom-11 bg-gradient-to-br from-slate-700 to-slate-500 hover:bg-gradient-to-br hover:from-slate-500 hover:to-slate-300 hover:text-slate-900 hover:scale-125"
 		@click="scrollToTop"
 	>
-		<Icon name="heroicons:chevron-up-20-solid" />
+		<Icon name="heroicons:chevron-up-20-solid" class="hover:scale-125" />
 	</button>
 	<button
 		v-else
