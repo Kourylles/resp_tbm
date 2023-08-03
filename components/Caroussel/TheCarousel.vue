@@ -12,7 +12,7 @@
 					name="heroicons:chevron-left"
 					:class="{ disable: currentSlide === 1 }"
 					class="p-1 md:rounded-full md:cursor-pointer bg-gradient-to-br from-red-700 to-red-500 hover:bg-gradient-to-br hover:from-red-500 hover:to-red-300 hover:text-red-900"
-					@Click="previousSlide"
+					@click="previousSlide"
 				></icon>
 			</div>
 			<!-- Bouton de Droite-->
@@ -20,7 +20,7 @@
 				<icon
 					name="heroicons:chevron-right"
 					class="p-1 cursor-pointer md:rounded-full bg-gradient-to-br from-red-700 to-red-500 hover:bg-gradient-to-br hover:from-red-500 hover:to-red-300 hover:text-red-900"
-					@Click="nextSlide"
+					@click="nextSlide"
 				></icon>
 			</div>
 		</div>
@@ -31,6 +31,7 @@
 		>
 			<!--On applique la classe "active" que si la slide est égale à (index + 1)  -->
 			<span
+				@click="goToSlide(index)"
 				v-for="(slide, index) in getSlideCount"
 				:key="index"
 				:class="{ active: index + 1 === currentSlide }"
@@ -46,6 +47,7 @@
 const currentSlide = ref(1)
 // Variable qui contiendra le nombre de photos dans le carousel
 const getSlideCount = ref(null)
+
 // Fonction pour passer à la photo suivante
 // Si on est sur la dernière photo, on passe à la 1ère
 // Sinon on passe à la photo suivante
@@ -56,6 +58,7 @@ const nextSlide = () => {
 	}
 	currentSlide.value += 1
 }
+
 // Fonction pour passer à la photo précédente
 // Si l'on est sur la première photo, on y reste
 // Sinon on passe à la précédente
@@ -67,9 +70,15 @@ const previousSlide = () => {
 	currentSlide.value -= 1
 }
 
+// Fonction pour rendre clickable la pagination du Carrousel
+const goToSlide = (index) => {
+	currentSlide.value = index + 1
+}
+
+// Fonction qui récupère le nombre de photos à afficher dans le carrousel en comptant tous les éléments
+// qui ont la classe .slide
 onMounted(() => {
 	getSlideCount.value = document.querySelectorAll('.slide').length
-	console.log(getSlideCount.value)
 })
 </script>
 

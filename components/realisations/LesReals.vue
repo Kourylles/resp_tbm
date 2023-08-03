@@ -13,11 +13,13 @@ const realisationsStore = useRealisationsStore()
 			v-for="real in realisationsStore.dataReal"
 			:key="real.id"
 		>
-			<img
-				class="rounded"
-				:src="`/images/réalisations/presentation/${real.image}`"
-				alt="Photo"
-			/>
+			<NuxtLink :to="`/realisations/${real.slugType}`">
+				<img
+					class="rounded"
+					:src="`/images/réalisations/presentation/${real.image}`"
+					alt="Photo"
+				/>
+			</NuxtLink>
 			<div>
 				<div class="h-12 text-center rounded bg-slate-700">
 					<!-- <NuxtLink :to="`/realisations/${real.id}`"> -->

@@ -48,11 +48,13 @@ const realisations = realisationsStore.dataReal.find(
 		>
 			<div v-for="real in realisations.listeRealisations" :id="real.name">
 				<div class="h-20 mt-2 w-36 md:h-40 md:w-72">
-					<img
-						class="rounded"
-						:src="`/images/réalisations/objets/${real.image}`"
-						alt="Photo"
-					/>
+					<NuxtLink :to="`/realisations/${realisations.slugType}/${real.slug}`">
+						<img
+							class="rounded"
+							:src="`/images/réalisations/objets/${real.image}`"
+							alt="Photo"
+						/>
+					</NuxtLink>
 
 					<div class="text-center rounded bg-slate-700">
 						<NuxtLink

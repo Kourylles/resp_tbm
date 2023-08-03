@@ -40,7 +40,7 @@ const AffTechno = ref(false)
 				<img
 					:src="`/images/réalisations/objets/${photo.url}`"
 					alt="Photos"
-					class="object-cover h-full min-w-full"
+					class="object-scale-down object-center w-full h-full"
 				/>
 			</div>
 		</CarousselTheSlide>
