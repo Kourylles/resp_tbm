@@ -2,6 +2,8 @@
 // Récupération du store Réalisation
 import { useRealisationsStore } from '../../stores/RealisationsStore.js'
 const realisationsStore = useRealisationsStore()
+const route = useRoute()
+console.log(route)
 </script>
 
 <template>

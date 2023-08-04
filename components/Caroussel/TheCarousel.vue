@@ -43,14 +43,18 @@
 </template>
 
 <script setup>
-// Variable de repérage de l'image courante dans le carousel
+// Initialisation de la variable de repérage de l'image courante dans le carousel
 const currentSlide = ref(1)
-// Variable qui contiendra le nombre de photos dans le carousel
+// Initialisation de variable qui contiendra le nombre de photos dans le carousel
 const getSlideCount = ref(null)
 
-// Fonction pour passer à la photo suivante
-// Si on est sur la dernière photo, on passe à la 1ère
-// Sinon on passe à la photo suivante
+/**
+ *  Passer au Slide suivant
+ * @description AJouter un au Slide en cours. Si c'est le dernier Slide, passer le Slide courant à 1
+ * @param None
+ * @returns Nothing
+ * @author Lionel
+ */
 const nextSlide = () => {
 	if (currentSlide.value === getSlideCount.value) {
 		currentSlide.value = 1
@@ -59,9 +63,13 @@ const nextSlide = () => {
 	currentSlide.value += 1
 }
 
-// Fonction pour passer à la photo précédente
-// Si l'on est sur la première photo, on y reste
-// Sinon on passe à la précédente
+/**
+ *  Passer au Slide précédent
+ * @description Soustraire un au Slide courant. Si c'est le premier Slide, passer le Slide courant à 1
+ * @param None
+ * @return Nothing
+ * @author Lionel
+ */
 const previousSlide = () => {
 	if (currentSlide.value === 1) {
 		currentSlide.value = 1
@@ -70,13 +78,28 @@ const previousSlide = () => {
 	currentSlide.value -= 1
 }
 
-// Fonction pour rendre clickable la pagination du Carrousel
+/**
+ * Afficher la Slide demandée
+ * @description Affecté la valeur de l'index plus un à la Slide courante
+ * @param {Integer} index index de la photo
+ * @returns Nothing
+ * @author Lionel
+ */
 const goToSlide = (index) => {
 	currentSlide.value = index + 1
 }
 
 // Fonction qui récupère le nombre de photos à afficher dans le carrousel en comptant tous les éléments
 // qui ont la classe .slide
+
+/**
+ * Récupérer le nombre de Slide à afficher
+ * @description Compter dans le DOM le nombre d'élement qui ont la classe .slide
+ * @description Lancer quand le composant est monté
+ * @param None
+ * @returns Nothing
+ * @author Lionel
+ */
 onMounted(() => {
 	getSlideCount.value = document.querySelectorAll('.slide').length
 })

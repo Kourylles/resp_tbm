@@ -14,7 +14,7 @@ const realisationDuType = realisationsStore.dataReal.find(
 	(item) => item.slugType === slugType
 )
 
-// Récupération de l'objet à afficher dans la liste des réalisations du Type selectionné
+// Récupération de l'objet à afficher dans la liste des réalisations du Type de réalisation demandée
 const slug = route.params.slug
 const realToShow = realisationDuType.listeRealisations.find(
 	(item) => item.slug === slug
@@ -62,7 +62,7 @@ const AffTechno = ref(false)
 	</div>
 	<div class="flex flex-row items-center justify-center w-full gap-5 my-5">
 		<div>
-			<ButtonGoHomeButton />
+			<ButtonGoBackButton />
 		</div>
 		<div class="text-center">
 			<Icon

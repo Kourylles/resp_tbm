@@ -7,6 +7,7 @@ const { getRealById } = storeToRefs(realisationsStore)
 
 // Récupération des paramètres de la route
 const route = useRoute()
+console.log(route)
 
 // Récupération de l'index 'Id de la route pour savoir quelle réalisation afficher
 //const idRealIndex = parseInt(route.params.id) - 1
