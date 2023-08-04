@@ -1,5 +1,5 @@
 <template>
-	<div class="w-full">
+	<div class="w-screen">
 		<slot :currentSlide="currentSlide" />
 
 		<!-- Boutons de Navigation entre les Slides-->
