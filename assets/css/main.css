@@ -21,3 +21,7 @@ body {
 .disable {
 	@apply opacity-0;
 }
+
+.homeIconDisable {
+	@apply disable;
+}

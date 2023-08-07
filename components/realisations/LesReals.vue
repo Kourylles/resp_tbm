@@ -2,12 +2,11 @@
 // Récupération du store Réalisation
 import { useRealisationsStore } from '../../stores/RealisationsStore.js'
 const realisationsStore = useRealisationsStore()
-const route = useRoute()
 </script>
 
 <template>
 	<div
-		class="flex flex-col items-center justify-center h-screen p-4 mx-auto mt-16 mb-16 md:items-start gap-y-24 md:gap-4 md:flex-wrap md:flex-row"
+		class="flex flex-col items-center justify-center h-screen p-4 mx-auto mb-24 mt-14 md:mt-5 md:mb-5 md:items-start gap-y-24 md:gap-4 md:flex-wrap md:flex-row"
 	>
 		<div
 			class="h-20 w-36 md:h-20 md:w-96"

@@ -1,3 +1,14 @@
+<script setup>
+// Import AboutStore
+import { useAboutStore } from '../../stores/AboutStore.js'
+const aboutStore = useAboutStore().dataAbout
+
+// Initialisation de la variable qui permet l'affichage des informations "A propos"
+const open = ref(false)
+
+const route = useRoute()
+</script>
+
 <template>
 	<div
 		class="fixed flex flex-row items-center justify-around w-screen h-8 p-1 px-2 text-2xl rounded top-1 gap-x-3 bg-gradient-to-br from-slate-700 to-slate-500 md:fixed md:flex-col md:left-6 md:justify-center md:top-1/2 md:w-10 md:h-44 md:gap-y-2 md:p-2"
@@ -52,13 +63,3 @@
 		</div>
 	</Teleport>
 </template>
-
-<script setup>
-// Import AboutStore
-import { useAboutStore } from '../../stores/AboutStore.js'
-const aboutStore = useAboutStore().dataAbout
-
-import { ref } from 'vue'
-
-const open = ref(false)
-</script>
