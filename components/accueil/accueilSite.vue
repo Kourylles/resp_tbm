@@ -1,3 +1,9 @@
+<script setup>
+// Récupération du store Accueil
+import { useAccueilStore } from '../../stores/AccueilStore.js'
+const accueilStore = useAccueilStore()
+</script>
+
 <template>
 	<div class="p-6 text-center">
 		<h1
@@ -19,15 +25,11 @@
 			{{ accueilStore.dataAccueil.textDescriptif }}
 		</p>
 	</div>
-	<div class="text-center">
+	<div class="mb-5 text-center">
 		<nuxt-link to="/realisations">
-			<button class="md:text-xl md:font-extrabold btn">Visitez</button>
+			<button class="md:text-xl md:font-extrabold btn btnGradientGrey">
+				Visitez
+			</button>
 		</nuxt-link>
 	</div>
 </template>
-
-<script setup>
-// Récupération du store Accueil
-import { useAccueilStore } from '../../stores/AccueilStore.js'
-const accueilStore = useAccueilStore()
-</script>

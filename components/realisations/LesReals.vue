@@ -3,12 +3,11 @@
 import { useRealisationsStore } from '../../stores/RealisationsStore.js'
 const realisationsStore = useRealisationsStore()
 const route = useRoute()
-console.log(route)
 </script>
 
 <template>
 	<div
-		class="flex flex-row flex-wrap justify-center gap-4 p-4 mx-6 mt-8 gap-y-32 md:justify-center md:gap-y-80 md:flex-row"
+		class="flex flex-col items-center justify-center h-screen p-4 mx-auto mt-16 mb-16 md:items-start gap-y-24 md:gap-4 md:flex-wrap md:flex-row"
 	>
 		<div
 			class="h-20 w-36 md:h-20 md:w-96"
@@ -22,15 +21,16 @@ console.log(route)
 					alt="Photo"
 				/>
 			</NuxtLink>
-			<div>
-				<div class="h-12 text-center rounded bg-slate-700">
-					<!-- <NuxtLink :to="`/realisations/${real.id}`"> -->
-					<NuxtLink :to="`/realisations/${real.slugType}`">
-						<button class="w-full text-sm md:text-xl md:font-semibold btn">
-							{{ real.name }}
-						</button>
-					</NuxtLink>
-				</div>
+
+			<div class="h-12 text-center rounded bg-slate-700">
+				<!-- <NuxtLink :to="`/realisations/${real.id}`"> -->
+				<NuxtLink :to="`/realisations/${real.slugType}`">
+					<button
+						class="w-full text-sm md:text-xl md:font-semibold btn btnGradientGrey"
+					>
+						{{ real.name }}
+					</button>
+				</NuxtLink>
 			</div>
 		</div>
 	</div>

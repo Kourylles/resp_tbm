@@ -7,9 +7,17 @@ body {
 }
 
 .btn {
-	@apply uppercase text-slate-400 p-2 h-full bg-gradient-to-br from-slate-700 to-slate-500 rounded-lg hover:bg-gradient-to-br hover:from-slate-500 hover:to-slate-300 hover:text-slate-900 z-50;
+	@apply uppercase text-slate-400 p-2 h-full z-50;
+}
+
+.btnGradientGrey {
+	@apply bg-gradient-to-br from-slate-700 to-slate-500 rounded-lg hover:bg-gradient-to-br hover:from-slate-500 hover:to-slate-300 hover:text-slate-900;
+}
+
+.btnGradientRed {
+	@apply bg-gradient-to-br from-red-700 to-red-500 hover:bg-gradient-to-br hover:from-red-500 hover:to-red-300 hover:text-red-900;
 }
 
 .disable {
-	opacity: 0;
+	@apply opacity-0;
 }

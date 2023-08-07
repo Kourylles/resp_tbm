@@ -20,7 +20,7 @@ const realisations = realisationsStore.dataReal.find(
 </script>
 
 <template>
-	<div class="text-xl text-slate-400 md:text-2xl">
+	<div class="mb-20 text-xl text-slate-400 md:text-2xl md:mb-40">
 		<!-- Présentation du type de réalisation-->
 		<div
 			class="flex flex-col items-center px-5 py-24 mx-auto md:flex-row md:mx-20"
@@ -61,7 +61,9 @@ const realisations = realisationsStore.dataReal.find(
 						<NuxtLink
 							:to="`/realisations/${realisations.slugType}/${real.slug}`"
 						>
-							<button class="w-full text-sm font-medium btn md:text-lg">
+							<button
+								class="w-full text-sm font-medium btn btnGradientGrey md:text-lg"
+							>
 								{{ real.name }}
 							</button>
 						</NuxtLink>
