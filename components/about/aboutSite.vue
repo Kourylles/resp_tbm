@@ -2,11 +2,10 @@
 // Import AboutStore
 import { useAboutStore } from '../../stores/AboutStore.js'
 const aboutStore = useAboutStore().dataAbout
-
 // Initialisation de la variable qui permet l'affichage des informations "A propos"
 const open = ref(false)
-
-const route = useRoute()
+// Récupération du nom de la route active afin de masquer ou non le bouton "Home"
+let isHome = useRoute().name === 'realisations' ? true : false
 </script>
 
 <template>
@@ -14,8 +13,15 @@ const route = useRoute()
 		class="fixed flex flex-row items-center justify-around w-screen h-8 p-1 px-2 text-2xl rounded top-1 gap-x-3 bg-gradient-to-br from-slate-700 to-slate-500 md:fixed md:flex-col md:left-6 md:justify-center md:top-1/2 md:w-10 md:h-44 md:gap-y-2 md:p-2"
 	>
 		<img src="/images/accueil/logotb.gif" alt="Logo TBM" class="w-6 h-6" />
-		<NuxtLink to="/realisations" class="mb-1">
-			<Icon name="heroicons:home-solid" class="hover:scale-125" />
+		<NuxtLink to="/realisations" v-if="isHome" class="mb-1">
+			<button class="h-full cursor-not-allowed disabled:opacity-25" disabled>
+				<Icon name="heroicons:home-solid" />
+			</button>
+		</NuxtLink>
+		<NuxtLink to="/realisations" v-else class="mb-1">
+			<button>
+				<Icon name="heroicons:home-solid" class="hover:scale-125" />
+			</button>
 		</NuxtLink>
 		<NuxtLink :href="aboutStore.adrMail" target="_blank" class="mb-1">
 			<Icon name="heroicons:envelope-solid" class="hover:scale-125" />
