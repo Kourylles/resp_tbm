@@ -8,5 +8,5 @@ export default defineNuxtConfig({
 			autoprefixer: {},
 		},
 	},
-	modules: ['nuxt-icon', '@pinia/nuxt'],
+	modules: ['nuxt-icon', '@pinia/nuxt', '@vueuse/nuxt'],
 })
