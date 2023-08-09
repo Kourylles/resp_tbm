@@ -20,7 +20,7 @@ const scrollToTop = () => {
 <template>
 	<button
 		v-if="y > 0"
-		class="fixed w-6 h-6 text-3xl text-white rounded-full right-3 md:w-10 md:h-10 md:right-0 bottom-11 btnGradientRed hover:scale-125"
+		class="fixed flex items-center justify-center w-6 h-6 text-xl text-white rounded-full right-3 md:w-10 md:h-10 md:right-0 bottom-11 btnGradientRed hover:scale-125"
 		@click="scrollToTop"
 	>
 		<Icon name="heroicons:chevron-double-up-solid" class="hover:scale-125" />
