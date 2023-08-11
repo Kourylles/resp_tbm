@@ -6,6 +6,11 @@ const aboutStore = useAboutStore().dataAbout
 const open = ref(false)
 // Récupération du nom de la route active afin de masquer ou non le bouton "Home"
 let isHome = useRoute().name === 'realisations' ? true : false
+
+// Gestion du click en dehors du Popup pour le fermer
+import { onClickOutside } from '@vueuse/core'
+const target = ref(null)
+onClickOutside(target, () => (open.value = false))
 </script>
 
 <template>
@@ -33,37 +38,44 @@ let isHome = useRoute().name === 'realisations' ? true : false
 			@click="open = true"
 		/>
 	</div>
+
 	<!-- PopUP lorsque l'on clique sur le bouton information-->
 	<Teleport to="body">
 		<div
 			v-if="open"
-			class="fixed z-50 flex flex-col justify-center bg-slate-300 md:top-8 md:left-20 md:right-20 md:bottom-8"
+			class="fixed top-0 left-0 z-50 flex flex-col items-center justify-center w-screen h-screen opacity-75 bg-slate-800"
 		>
-			<div class="h-full p-2 m-4 text-center bg-slate-900 text-slate-400">
-				<p class="m-4 text-2xl">{{ aboutStore.develloppeur }}</p>
-				<img
-					class="w-20 h-20 mx-auto mt-4 mb-20"
-					src="/images/accueil/GWF.gif"
-					alt="Logo GWF"
+			<div
+				class="relative flex flex-col items-center justify-center w-3/5 p-2 text-white bg-slate-500 h-4/6"
+			>
+				<Icon
+					name="heroicons:x-circle"
+					class="absolute z-50 w-10 h-10 rounded-full hover:scale-125 btnGradientRed -top-4 -right-4"
+					@click="open = false"
 				/>
-				<p class="text-2xl md:my-10">
-					{{ aboutStore.juriPhotoSite1 }}
-				</p>
-				<p class="mt-4 text-2xl md:-m-10">
-					{{ aboutStore.juriPhotoSite2 }}
-				</p>
-				<p
-					class="w-56 h-auto mx-auto text-center text-white border rounded border-slate-400 mt-14 md:mt-36"
+				<div
+					id="modal-inner"
+					class="w-full h-full text-xl font-extrabold text-center bg-opacity-100 opacity-100 z-49 bg-slate-950"
+					ref="target"
 				>
-					{{ aboutStore.version }} <br />
-					Dernière mise à jour du site <br />{{ aboutStore.maj }}
-				</p>
-				<div>
-					<Icon
-						name="heroicons:x-circle-solid"
-						class="w-10 h-10 mt-20 text-3xl hover:scale-125 btn"
-						@click="open = false"
+					<p class="m-4">{{ aboutStore.develloppeur }}</p>
+					<img
+						class="w-20 h-20 mx-auto mt-4 mb-20"
+						src="/images/accueil/GWF.gif"
+						alt="Logo GWF"
 					/>
+					<p class="md:my-10">
+						{{ aboutStore.juriPhotoSite1 }}
+					</p>
+					<p class="mt-4 md:-m-10">
+						{{ aboutStore.juriPhotoSite2 }}
+					</p>
+					<p
+						class="h-auto p-1 mx-auto text-lg font-normal text-center border rounded w-60 border-slate-400 mt-14 md:mt-28"
+					>
+						Version {{ aboutStore.version }} <br />
+						Dernière mise à jour du site <br />{{ aboutStore.maj }}
+					</p>
 				</div>
 			</div>
 		</div>
