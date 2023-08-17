@@ -6,10 +6,10 @@ const realisationsStore = useRealisationsStore()
 
 <template>
 	<div
-		class="flex flex-col items-center justify-center h-screen p-4 mx-auto mb-24 mt-14 md:mt-5 md:mb-5 md:items-start gap-y-24 md:gap-4 md:flex-wrap md:flex-row"
+		class="flex flex-col items-center justify-center h-screen p-4 mx-auto mb-24 mt-14 lg:mt-5 lg:pb-20 lg:items-start gap-y-24 lg:gap-y-72 lg:gap-x-10 lg:flex-wrap lg:flex-row"
 	>
 		<div
-			class="h-20 w-36 md:h-20 md:w-96"
+			class="h-20 w-36 lg:h-20 lg:w-96"
 			v-for="real in realisationsStore.dataReal"
 			:key="real.id"
 		>
@@ -25,7 +25,7 @@ const realisationsStore = useRealisationsStore()
 				<!-- <NuxtLink :to="`/realisations/${real.id}`"> -->
 				<NuxtLink :to="`/realisations/${real.slugType}`">
 					<button
-						class="w-full text-sm md:text-xl md:font-semibold btn btnGradientGrey"
+						class="w-full text-sm lg:text-xl lg:font-semibold btn btnGradientGrey"
 					>
 						{{ real.name }}
 					</button>

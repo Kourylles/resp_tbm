@@ -15,7 +15,7 @@ onClickOutside(target, () => (open.value = false))
 
 <template>
 	<div
-		class="fixed flex flex-row items-center justify-around w-screen h-8 p-1 px-2 text-2xl rounded top-1 gap-x-3 bg-gradient-to-br from-slate-700 to-slate-500 md:fixed md:flex-col md:left-6 md:justify-center md:top-1/2 md:w-10 md:h-44 md:gap-y-2 md:p-2"
+		class="fixed flex flex-row items-center justify-around w-screen h-8 p-1 px-2 text-2xl rounded top-1 gap-x-3 bg-gradient-to-br from-slate-700 to-slate-500 lg:fixed lg:flex-col lg:left-6 lg:justify-center lg:top-1/2 lg:w-10 lg:h-44 lg:gap-y-2 lg:p-2"
 	>
 		<img src="/images/accueil/logotb.gif" alt="Logo TBM" class="w-6 h-6" />
 		<NuxtLink to="/realisations" v-if="isHome" class="mb-1">
@@ -60,18 +60,18 @@ onClickOutside(target, () => (open.value = false))
 				>
 					<p class="m-4">{{ aboutStore.develloppeur }}</p>
 					<img
-						class="w-20 h-20 mx-auto mt-4 mb-20"
+						class="w-20 h-16 mx-auto mt-2 mb-6"
 						src="/images/accueil/GWF.gif"
 						alt="Logo GWF"
 					/>
 					<p class="md:my-10">
 						{{ aboutStore.juriPhotoSite1 }}
 					</p>
-					<p class="mt-4 md:-m-10">
+					<p class="mt-4">
 						{{ aboutStore.juriPhotoSite2 }}
 					</p>
 					<p
-						class="h-auto p-1 mx-auto text-lg font-normal text-center border rounded w-60 border-slate-400 mt-14 md:mt-28"
+						class="h-auto p-1 mx-auto mt-5 text-lg font-normal text-center border rounded w-60 border-slate-400 lg:mt-28"
 					>
 						Version {{ aboutStore.version }} <br />
 						Dernière mise à jour du site <br />{{ aboutStore.maj }}
